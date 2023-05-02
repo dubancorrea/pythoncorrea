@@ -18,3 +18,5 @@ for i in range (100, 1000):
      cubo= (c**3)+(d**3)+(u**3)
      if cubo==i:
           print(i)
+
+          #Terminamos el ejercicio
