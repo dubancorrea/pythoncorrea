@@ -1,11 +1,9 @@
 #Se usan con los corchetes "[]"
-#sumarlos
-#promedio
-#mayor
-#menor
-#moda
-#mediana
-#desviacion estandar
+#Sumarlos
+#Promedio
+#Mayor
+#Menor
+#Moda: El numero que mas se repite
 #Mediana : si la lista es impar, ordenar la lista de menor a mayor y tomar la l
 #Desviacion estandar : calcular la media
 #calcular el cuadrado de la distancia a la media para cada DeprecationWarnin
@@ -13,13 +11,19 @@
 
 
 import random
+import math
 lista=[]
-sum=0
+suma=0
+resta=0
+divi=0
+cuad=2
 promedio=0
 menor=10000
 mayor=0
 moda=0
-media=[]
+media=0
+modas=0
+
 tam= random.randint(5,10)
 
 for i in range(tam):
@@ -28,10 +32,10 @@ for i in range(tam):
 print(lista)
 
 for i in lista:
-    sum += i 
-print(sum)
+    suma += i 
+print(suma)
 for i in lista:
-    promedio= sum//tam
+    promedio= suma//tam
 print(promedio)
 
 for i in lista:
@@ -42,11 +46,22 @@ for i in lista:
 print("El mayor es:", mayor)
 print("El menor es:", menor)
 
-for i in lista:
-     if i==i:
-          print("la moda es", moda)
+for i in range(len(lista)):
+        for i in range (num):
+            if num == num:
+               modas= (i) = (num) 
+               moda=modas
+print(f'La moda es: {moda}')
 
-for i in lista():
-  print(media)
+for i in lista:
+    i = resta - (suma) / (promedio)
+    cuadrado = resta ** 2
+    suma += cuadrado
+    division = suma / promedio
+raiz = math.sqrt(division)
+print((f'La desviacion estandar es: {raiz}'))
+
+
+
 
 
