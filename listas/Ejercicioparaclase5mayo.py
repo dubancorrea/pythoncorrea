@@ -15,8 +15,8 @@ import math
 lista=[]
 suma=0
 resta=0
-divi=0
-cuad=2
+division=0
+cuadrado=2
 promedio=0
 menor=10000
 mayor=0
@@ -46,12 +46,16 @@ for i in lista:
 print("El mayor es:", mayor)
 print("El menor es:", menor)
 
-for i in range(len(lista)):
-        for i in range (num):
-            if num == num:
-               modas= (i) = (num) 
-               moda=modas
-print(f'La moda es: {moda}')
+max = 0
+for num in lista:
+    cont = 0
+    for s in lista:
+        if num == s:
+            cont +=1
+    if cont > max:
+        max = cont
+        moda = num
+print ("La moda es: ", moda )
 
 for i in lista:
     i = resta - (suma) / (promedio)
@@ -61,8 +65,20 @@ for i in lista:
 raiz = math.sqrt(division)
 print((f'La desviacion estandar es: {raiz}'))
 
-#Hacer el ultimo punto 
-##Terminar ejercicio y hacer los del pdf
-#Coger lo que samuelito programo
-#Comentarear el codigo que hizo en la sesion de hoy
-#Hacer los programas de hoy
+for i in range(tam):
+    for j in range(i+1,tam):
+        if lista[i]<lista[j]:
+            aux=lista[i]
+            lista[i]=lista[j]
+            lista[j]=aux
+
+print(lista)
+
+for i in range(tam):
+    for j in range(i+1,tam):
+        if lista[i]>lista[j]:
+            aux=lista[i]
+            lista[i]=lista[j]
+            lista[j]=aux
+
+print(lista)
