@@ -49,4 +49,8 @@ for i in lista:
 for i in lista():
   print(media)
 
-
+#Hacer el ultimo punto 
+##Terminar ejercicio y hacer los del pdf
+#Coger lo que samuelito programo
+#Comentarear el codigo que hizo en la sesion de hoy
+#Hacer los programas de hoy
