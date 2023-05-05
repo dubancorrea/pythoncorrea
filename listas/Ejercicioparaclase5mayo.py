@@ -61,9 +61,6 @@ for i in lista:
 raiz = math.sqrt(division)
 print((f'La desviacion estandar es: {raiz}'))
 
-
-
-
 #Hacer el ultimo punto 
 ##Terminar ejercicio y hacer los del pdf
 #Coger lo que samuelito programo
